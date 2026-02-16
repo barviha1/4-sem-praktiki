@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка товара - SASS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Каталог товаров</h1>
+        
+        <div class="product-card">
+            <img class="product-card__image" src="https://www.sony.ru/image/5d02da5df552836db894cead8a68f5f3?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF" alt="Беспроводные наушники">
+            
+            <div class="product-card__content">
+                <h2 class="product-card__title">Беспроводные наушники Sony</h2>
+                <p class="product-card__description">Высококачественные беспроводные наушники с шумоподавлением. До 30 часов работы от аккумулятора.</p>
+                
+                <div class="product-card__details">
+                    <div class="product-card__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span class="rating-text">4.5 (128 отзывов)</span>
+                    </div>
+                    
+                    <div class="product-card__price">
+                        <span class="price-current">8 499 ₽</span>
+                        <span class="price-old">10 999 ₽</span>
+                    </div>
+                </div>
+                
+                <div class="product-card__actions">
+                    <button class="btn btn--primary">
+                        <i class="fas fa-shopping-cart"></i> В корзину
+                    </button>
+                    <button class="btn btn--secondary">
+                        <i class="far fa-heart"></i> В избранное
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <img class="product-card__image" src="https://texno-pro.ru/upload/iblock/a05/Canon-EOS-R6-24-105-STM-kit-1.jpg" alt="Фотоаппарат">
+            
+            <div class="product-card__content">
+                <h2 class="product-card__title">Фотоаппарат</h2>
+                <p class="product-card__description">Профессиональная зеркальная камера. Комплект включает объектив и сумку для переноски.</p>
+                
+                <div class="product-card__details">
+                    <div class="product-card__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span class="rating-text">4.0 (64 отзыва)</span>
+                    </div>
+                    
+                    <div class="product-card__price">
+                        <span class="price-current">34 999 ₽</span>
+                    </div>
+                </div>
+                
+                <div class="product-card__actions">
+                    <button class="btn btn--primary">
+                        <i class="fas fa-shopping-cart"></i> В корзину
+                    </button>
+                    <button class="btn btn--secondary">
+                        <i class="far fa-heart"></i> В избранное
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
